@@ -1,0 +1,10 @@
+
+https://medium.com/python-features/understanding-if-name-main-in-python-a37a3d4ab0c3#:~:text=The%20value%20of%20__name,when%20the%20module%20is%20imported.
+
+https://www.geeksforgeeks.org/python-get-a-list-as-input-from-user/
+
+https://www.geeksforgeeks.org/python-programming-language/
+
+merge sort, heap sort, quick sort
+Time complexity
+
