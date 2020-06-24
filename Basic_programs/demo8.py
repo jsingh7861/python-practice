@@ -7,10 +7,6 @@
 # when the loop is NOT terminated by a break statement.
 ###
 
-#def prime_num_finder():
-#    for num in range(2, 100):
-#       if num % 2 != 0:
-#            print(num, "is a prime number")
 
 def prime_num_finder(low_num , high_num):
     for num in range(low_num , high_num + 1):
