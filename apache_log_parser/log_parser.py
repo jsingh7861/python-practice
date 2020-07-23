@@ -16,7 +16,6 @@ def apache_log_reader(logfile):
     
 
     
-
 if __name__ == "__main__":
     logfile = "/Users/jasvindersingh/Desktop/Python_practice/apache_log_parser/logfile.txt"
     apache_log_reader(logfile)
