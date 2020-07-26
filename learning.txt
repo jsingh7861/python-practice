@@ -18,3 +18,8 @@ https://stackoverflow.com/questions/419163/what-does-if-name-main-do
 merge sort, heap sort, quick sort
 Time complexity
 
+
+https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html
+
+
+https://extendsclass.com/python-tester.html
