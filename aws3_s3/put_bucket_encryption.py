@@ -5,10 +5,6 @@
 import boto3
 
 
-def get_encryption(bucket_name , client):
-    response = client.get_bucket_encryption(Bucket = bucket_name)
-    print(response)
-
 
 def put_encryption(bucket_name , client):
     set_encryption = client.put_bucket_encryption(Bucket = bucket_name,  

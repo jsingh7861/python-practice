@@ -17,6 +17,7 @@ def create_bucket(client , name):
     except botocore.exceptions.ClientError as error:
         if error.response['Error']['Code'] == 'BucketAlreadyOwnedByYou':
             print("Bucket Already exist")
+## Add as many as error you want to catch
         else:
             raise error
 
