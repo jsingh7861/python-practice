@@ -1,12 +1,13 @@
 ###
 # Bubble sort program
+# https://stackabuse.com/sorting-algorithms-in-python/
 ###
 
 
 def bubble_sort(arr , n):
     swapped = True
     while swapped:
-        swapped = False 
+        swapped = False         
         for j in range(0,n-1):
             if arr[j] > arr[j+1]:
                 swapped = True
