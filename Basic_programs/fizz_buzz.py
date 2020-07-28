@@ -1,6 +1,7 @@
 ###
 # Program to print number form 1 to 100
 ###
+import unittest
 
 def fizz_buzz(n):
     m = []
@@ -15,14 +16,17 @@ def fizz_buzz(n):
             m.append(i)    
     return m        
 
-def test_case(k , expected_output):
-    if k == expected_output:
-        print("Test case pass")
-    else:
-        print("Test case failed")    
+class test_case(unittest.TestCase):
+    def test_case_number(self):
+        self.assertEqual(fizz_buzz(1)[0],1)
+        self.assertEqual(fizz_buzz(2)[1],2)
+        self.assertEqual(fizz_buzz(4)[3],4)
+
+  
+
 
 if __name__ == "__main__":
-    k = fizz_buzz(5)
+    k = fizz_buzz(100)
     print(k)
-    expected_output = [1, 2, 'Fizz', 4, 5]
-    test_case(k , expected_output)
+    unittest.main()
+    
