@@ -21,8 +21,7 @@ class test_case(unittest.TestCase):
         self.assertEqual(fizz_buzz(1)[0],1)
         self.assertEqual(fizz_buzz(2)[1],2)
         self.assertEqual(fizz_buzz(4)[3],4)
-
-  
+ 
 if __name__ == "__main__":
     k = fizz_buzz(100)
     print(k)

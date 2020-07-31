@@ -3,9 +3,6 @@
 ###
 
     
-
-
-
 def fibonacci_finder(n):
     fib_array  = [0,1]
     if n < 0:

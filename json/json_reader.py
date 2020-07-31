@@ -13,9 +13,7 @@ def json_title(file_name):
             v = i.get('unwound')
             final_output = v.get('title')
             print(final_output)
-
-
-                   
+                 
 if __name__ == "__main__":
     print("Enter the json file name:")
     file_name = 'example.json' 

@@ -23,3 +23,7 @@ https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html
 
 
 https://extendsclass.com/python-tester.html
+
+Array vs lists 
+
+https://www.programiz.com/python-programming/array
